@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Din Nettside</title>
+    <link rel="stylesheet" href="../video/video.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">SECKER</div>
+            <ul class="navbar-menu" id="navLinks">
+                <li><a href="../inedx.html">Hjem</a></li>
+                <li><a href="../video/video.html">Videoer</a></li>
+                <li><a href="../video/video.html">Videoer</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+            <div class="navbar-toggle" id="navbar-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    
+
+        <video id="videoElement" preload="auto" autoplay muted loop>
+            <source src="../Bilder/Screencast from 13. okt. 2023 kl. 12.26 +0200.webm" type="video/mp4">
+            Din nettleser støtter ikke videoelementet.
+        </video>
+        <div class="cover" id="cover">
+            <button id="startBtn">Start</button>
+        </div>
+        
+        <div class="controls">
+            <button id="rewind">⟸ 10s</button>
+            <button id="togglePlay">Pause</button>
+            <button id="forward">10s ⟹</button>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="notes-container" id="notesContainer">
+            <div class="notes-header">
+                <h3>Notater</h3>
+                <button id="closeNotes">✖</button>
+            </div>
+            <textarea id="notes" rows="10" cols="30" placeholder="Skriv dine notater her..."></textarea>
+        </div>
+        
+        
+        <script src="video.js"></script>
+    </body>
+</html>
+
+
