@@ -16,7 +16,6 @@ header {
 
 
 
-/* Reset CSS for basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -348,3 +347,9 @@ ul#pointList li p {
     height: auto;
     z-index: 1010;
 }
+
+/* Highlight the active link */
+.navbar-menu a[href*="index"] {
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+  }

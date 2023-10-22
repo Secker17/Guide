@@ -41,11 +41,17 @@ document.addEventListener('keydown', function(event) {
    // JavaScript for å animere punktene en etter en
    const points = document.querySelectorAll("ul#pointList li p");
    const pointTexts = [
-       "🔘 VMware tilbyr flere forskjellige virtualiseringsprodukter, inkludert VMware Workstation, VMware Player, VMware Fusion (for Mac), og VMware vSphere for mer avansert servervirtualisering.",
-       "🔘 For Linux Ubuntu-brukere, er VMware Workstation Player et populært valg for desktop virtualisering.",
-       "🔘 VMware Workstation Player er kompatibelt med Linux Ubuntu og kan installeres på Ubuntu-systemer for å opprette og kjøre virtuelle maskiner (VMer).",
-       "🔘 Sørg for å sjekke VMware-nettstedet for de nyeste kravene og støttede Ubuntu-versjoner.",
-       "🔘 Lurer på om du faktisk gadd å trykke på knappen for å se lese hele teksten🤔",
+
+    "🔘 Apache er en åpen kildekode webserver som er populær på mange Linux-distribusjoner, inkludert Ubuntu.",
+    "🔘 For å installere Apache på en Ubuntu-server, kan du bruke kommandoen sudo apt-get install apache2.",
+    "🔘 Når Apache er installert, kan du sjekke statusen med systemctl status apache2 for å se om serveren kjører.",
+    "🔘 Grunnleggende Linux-kommandoer inkluderer ls for å liste filer, cd for å endre kataloger, og cp for å kopiere filer.",
+    "🔘 Hvis du trenger å redigere konfigurasjonsfiler for Apache, finner du dem ofte i katalogen /etc/apache2/ og kan bruke tekstredigerere som nano eller vi.",
+    "🔘 For å gi brukertilgang til bestemte kataloger på en webserver, kan du konfigurere .htaccess-filer i Apache.",
+    "🔘 Linux-brukere bør også være kjent med kommandoen chmod for å endre filrettigheter og chown for å endre eierrettigheter.",
+    "🔘 I Apache kan du også opprette virtuelle vertskonfigurasjoner ved hjelp av <VirtualHost>-direktiver for å betjene flere nettsteder fra en enkelt server.",
+    "🔘 Ved feilsøking på en Apache-server, er det nyttig å kjenne til error.log og access.log, som typisk finnes i /var/log/apache2/.",
+    "🔘 Håper denne oversikten hjelper deg med å forstå grunnleggende konsepter knyttet til Apache og Linux. Husk alltid å søke etter spesifikke løsninger basert på din situasjon!",
    ];
 
    let currentIndex = 0;

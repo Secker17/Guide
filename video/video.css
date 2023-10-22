@@ -321,3 +321,9 @@ button:hover {
     height: auto;
     z-index: 1010;
 }
+
+/* Highlight the active link */
+.navbar-menu a[href*="video"] {
+  background-color: rgb(27, 27, 27);
+  color: #ffffff;
+}
